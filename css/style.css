@@ -1,0 +1,11 @@
+
+body{
+    background-image: url("../img/img1.jpg");
+    background-repeat: no-repeat;
+    /* background-size: initial; */
+    background-size: 300px 300px;
+    background-position: top right;
+    background-position: bottom right;
+    background-position: bottom left;
+    background-position: top left;
+}

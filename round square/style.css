@@ -1,0 +1,158 @@
+.wrapper
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    background: black;
+    color: #ccc;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.square
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.692);
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#sq0 {
+    animation-name: a0;
+}
+
+@keyframes a0{
+    50% {
+        transform: rotate(200deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+
+#sq1 {
+    animation-name: a1;
+}
+
+@keyframes a1{
+    50% {
+        transform: rotate(180deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+
+#sq2 {
+    animation-name: a2;
+}
+
+@keyframes a2{
+    50% {
+        transform: rotate(160deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+
+#sq3 {
+    animation-name: a3;
+}
+
+@keyframes a3{
+    50% {
+        transform: rotate(140deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+
+
+#sq4 {
+    animation-name: a4;
+}
+
+@keyframes a4{
+    50% {
+        transform: rotate(120deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+#sq5 {
+    animation-name: a5;
+}
+
+@keyframes a5{
+    50% {
+        transform: rotate(100deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+
+#sq6 {
+    animation-name: a6;
+}
+
+@keyframes a6{
+    50% {
+        transform: rotate(80deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+#sq7 {
+    animation-name: a7;
+}
+
+@keyframes a7{
+    50% {
+        transform: rotate(60deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+#sq8 {
+    animation-name: a8;
+}
+
+@keyframes a8{
+    50% {
+        transform: rotate(40deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+#sq9 {
+    animation-name: a9;
+}
+
+@keyframes a9{
+    50% {
+        transform: rotate(20deg);
+        width: 120px;
+        border-radius: 50%;
+
+    }
+}
+
